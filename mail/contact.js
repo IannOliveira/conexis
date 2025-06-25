@@ -60,13 +60,6 @@ $(function () {
     });
 });
 
-document.getElementById('email').addEventListener('invalid', function() {
-    this.setCustomValidity('Por favor, insira um email válido.');
-});
-
-document.getElementById('email').addEventListener('input', function() {
-    this.setCustomValidity('');
-});
 
 $('#name').focus(function () {
     $('#success').html('');
